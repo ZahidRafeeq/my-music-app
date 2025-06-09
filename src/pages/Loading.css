@@ -1,0 +1,68 @@
+/* Circle Container */
+.circle-container {
+  max-width: 100%;
+}
+.brush-circle {
+  width: 180px;
+  height: 180px;
+  background-image: url('../assets/imgs/brush.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.spinner-ring {
+  width: 220px;
+  height: 220px;
+  border: 6px solid transparent;
+  border-top: 6px solid #00bfff;
+  border-right: 6px solid #ff00ff;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+.music-note {
+  font-size: 2.5rem;
+  color: #00bfff;
+}
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00bfff, #ff00ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.tagline {
+  font-size: 0.9rem;
+}
+.loading-text {
+  font-size: 1rem;
+  color: #ccc;
+}
+.spinner {
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media (max-width: 576px) {
+  .brush-circle {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .spinner-ring {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .music-note {
+    font-size: 2rem;
+  }
+  
+  .brand-name {
+    font-size: 1.3rem;
+  }
+}

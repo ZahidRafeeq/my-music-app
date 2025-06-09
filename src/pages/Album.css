@@ -1,0 +1,59 @@
+.album-page {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+}
+
+.sidebar-col {
+  padding-right: 0;
+}
+
+.main-col {
+  padding: 2rem;
+}
+
+.text-pink {
+  color: #ff69b4; /* Hot pink */
+}
+
+.album-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.song-row {
+  transition: all 0.3s ease;
+  background-color: transparent;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.2); /* subtle pink glow */
+  border-radius: 6px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.song-row:hover,
+.song-row:focus {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 105, 180, 0.1) 0%,
+    rgba(255, 105, 180, 0.2) 100%
+  );
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.7); /* stronger glow on hover */
+  transform: scale(1.01);
+  outline: none;
+}
+
+.song-row .text-white {
+  color: white;
+  font-weight: 600;
+}
+
+.song-row .text-muted {
+  color: #ff69b4 !important; /* pink */
+  font-weight: 500;
+}
+
+.song-row:focus-visible {
+  outline: 2px solid #ff69b4;
+  outline-offset: 2px;
+}

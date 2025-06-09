@@ -1,0 +1,72 @@
+[
+  {
+    "id": 6,
+    "songTitle": "Qatal",
+    "artist": "Guru Randhawa",
+    "image": "/imgs/newrelease/6.jpeg",
+    "songUrl": "/songs/newrelease/6.mp3"
+  },
+  {
+    "id": 7,
+    "songTitle": "Mann Bharrya",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/newrelease/7.jpeg",
+    "songUrl": "/songs/newrelease/7.mp3"
+  },
+  {
+    "id": 8,
+    "songTitle": "Nusrat Fateh Ali Khan -Mera Piya Ghar Aaya Live at Washington University with english subtitles",
+    "artist": "NFAK",
+    "image": "/imgs/newrelease/8.jpeg",
+    "songUrl": "/songs/newrelease/8.mp3"
+  },
+  {
+    "id": 9,
+    "songTitle": "Parindey (From Jatt Nuu Chudail Takri)",
+    "artist": "B praak, JaaniK",
+    "image": "/imgs/newrelease/9.jpeg",
+    "songUrl": "/songs/newrelease/9.mp3"
+  },
+  {
+    "id": 10,
+    "songTitle": "Shaky",
+    "artist": "Sanju Rathod",
+    "image": "/imgs/newrelease/10.jpeg",
+    "songUrl": "/songs/newrelease/10.mp3"
+  },
+  {
+    "id": 1,
+    "songTitle": "Pal Pal",
+    "artist": "Ali Soomroo",
+    "image": "../imgs/newrelease/1.jpeg",
+    "songUrl": "/songs/newrelease/1.mp3"
+  },
+  {
+    "id": 2,
+    "songTitle": "Akon's Beautiful Day",
+    "artist": "Akon's",
+    "image": "/imgs/newrelease/2.jpeg",
+    "songUrl": "/songs/newrelease/2.mp3"
+  },
+  {
+    "id": 3,
+    "songTitle": "Allah De Bandeya ",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/newrelease/3.jpeg",
+    "songUrl": "/songs/newrelease/3.mp3"
+  },
+  {
+    "id": 4,
+    "songTitle": "Zohrajabeen",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/newrelease/4.jpeg",
+    "songUrl": "/songs/newrelease/4.mp3"
+  },
+  {
+    "id": 5,
+    "songTitle": "Raanjhan",
+    "artist": "Sachet-Parampara,",
+    "image": "/imgs/newrelease/5.jpeg",
+    "songUrl": "/songs/newrelease/5.mp3"
+  }
+]

@@ -1,0 +1,67 @@
+.hero-section {
+  background-image: url('../assets/imgs/img1.png');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  min-height: 50vh; 
+  position: relative;
+  margin-top: 40px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  border-radius: 1rem;
+  
+  display: flex;
+  align-items: flex-start; /* align items at top for mobiles */
+}
+
+/* Desktop & tablets: bigger height and vertically center content */
+@media (min-width: 768px) {
+  .hero-section {
+    min-height: 90vh;
+    align-items: center;
+  }
+}
+
+.hero-overlay {
+  z-index: 2;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.text-pink {
+  color: #ff2c9c;
+}
+
+.hero-section .btn-discover {
+  background-color: hotpink;
+  border: none;
+  color: white;
+  min-width: 140px;
+  transition: all 0.3s ease;
+}
+
+.hero-section .btn-discover:hover {
+  background-color: deeppink;
+  color: #fff;
+}
+
+.hero-section .btn-playlist {
+  min-width: 140px;
+  color: hotpink;
+  border: 2px solid hotpink;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.hero-section .btn-playlist:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+.hero-navbar-wrapper {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}

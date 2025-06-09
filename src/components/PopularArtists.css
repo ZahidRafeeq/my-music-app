@@ -1,0 +1,100 @@
+.popular-artists-section {
+  padding: 25px;
+  color: white;
+  margin-top: 30px;
+}
+
+.popular-artists-section h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.text-pink {
+  color: deeppink;
+}
+
+.artist-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.artist-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.artist-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 2px deeppink;
+}
+
+.artist-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.view-all-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.view-all-wrapper:hover {
+  transform: translateY(-4px);
+}
+
+.plus-circle {
+  width: 60px;
+  height: 60px;
+  background-color: deeppink;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.view-all-text {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.view-all-wrapper:hover .view-all-text {
+  color: deeppink;
+}
+
+.view-all-text-only {
+  font-weight: bold;
+  color: deeppink;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.view-all-text-only:hover {
+  color: hotpink;
+}

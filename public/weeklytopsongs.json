@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "songTitle": "Pal Pal",
+    "artist": "Ali Soomroo",
+    "image": "/imgs/weeklytop/1.jpeg",
+    "songUrl": "/songs/weeklytop/1.mp3"
+  },
+  {
+    "id": 2,
+    "songTitle": "Akon's Beautiful Day",
+    "artist": "Akon's",
+    "image": "/imgs/weeklytop/2.jpeg",
+    "songUrl": "/songs/weeklytop/2.mp3"
+  },
+  {
+    "id": 3,
+    "songTitle": "Allah De Bandeya",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/weeklytop/3.jpeg",
+    "songUrl": "/songs/weeklytop/3.mp3"
+  },
+  {
+    "id": 4,
+    "songTitle": "Zohrajabeen",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/weeklytop/4.jpeg",
+    "songUrl": "/songs/weeklytop/4.mp3"
+  },
+  {
+    "id": 5,
+    "songTitle": "Raanjhan",
+    "artist": "Sachet-Parampara,",
+    "image": "/imgs/weeklytop/5.jpeg",
+    "songUrl": "/songs/weeklytop/5.mp3"
+  },
+  {
+    "id": 6,
+    "songTitle": "Qatal",
+    "artist": "Guru Randhawa",
+    "image": "/imgs/weeklytop/6.jpeg",
+    "songUrl": "/songs/weeklytop/6.mp3"
+  },
+  {
+    "id": 7,
+    "songTitle": "Mann Bharrya",
+    "artist": "B praak, Jaani",
+    "image": "/imgs/weeklytop/7.jpeg",
+    "songUrl": "/songs/weeklytop/7.mp3"
+  },
+  {
+    "id": 8,
+    "songTitle": "Nusrat Fateh Ali Khan -Mera Piya Ghar Aaya Live at Washington University with english subtitles",
+    "artist": "NFAK",
+    "image": "/imgs/weeklytop/8.jpeg",
+    "songUrl": "/songs/weeklytop/8.mp3"
+  },
+  {
+    "id": 9,
+    "songTitle": "Parindey (From Jatt Nuu Chudail Takri)",
+    "artist": "B praak, JaaniK",
+    "image": "/imgs/weeklytop/9.jpeg",
+    "songUrl": "/songs/weeklytop/9.mp3"
+  },
+  {
+    "id": 10,
+    "songTitle": "Shaky",
+    "artist": "Sanju Rathod",
+    "image": "/imgs/weeklytop/10.jpeg",
+    "songUrl": "/songs/weeklytop/10.mp3"
+  }
+]

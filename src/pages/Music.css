@@ -1,0 +1,292 @@
+/* Music.css */
+
+.music-page {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Dark translucent overlay ke saath blur */
+.music-page .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+  backdrop-filter: blur(10px);
+}
+
+/* Content ki positioning overlay se upar */
+.music-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Gradient text styling for "Now Playing" */
+.gradient-text {
+  background: linear-gradient(90deg, #ff4da6 0%, #ffa1dc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Baqi CSS waise hi hai */
+
+.song-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 77, 166, 0.6);
+  object-fit: cover;
+  user-select: none;
+}
+
+.waveform-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.waveform {
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+  background: none;
+  box-shadow: 0 0 8px rgba(255, 77, 166, 0.4);
+}
+
+.seekbar {
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s ease;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.seekbar::-webkit-scrollbar {
+  display: none;
+}
+.seekbar:hover {
+  background: #ff4da6;
+}
+.seekbar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #ff4da6;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #ff4da6;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: -4px;
+}
+.seekbar::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+.seekbar::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #ff4da6;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #ff4da6;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.seekbar::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+.seekbar::-moz-range-track {
+  height: 4px;
+  background: #ddd;
+  border-radius: 2px;
+}
+
+.time-labels > .elapsed,
+.time-labels > .remaining {
+  font-weight: 600;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.control-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #ff4da6;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 8px rgba(255, 77, 166, 0.6);
+}
+.control-btn img {
+  filter: invert(100%);
+  user-select: none;
+}
+.control-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(255, 77, 166, 0.8);
+}
+
+.volume-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.volume-btn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #ff4da6;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 8px rgba(255, 77, 166, 0.6);
+  z-index: 2;
+}
+.volume-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(255, 77, 166, 0.8);
+}
+.volume-btn img {
+  filter: invert(100%);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.volume-btn.muted img {
+  opacity: 0.5;
+}
+
+/* Volume-popup logic */
+.volume-popup {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  padding: 6px;
+  background: #fca0ce;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 1s;
+  z-index: 5;
+}
+
+.volume-container:hover .volume-popup {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+}
+
+.volume-slider-horizontal {
+  width: 120px;
+  height: 6px;
+  border-radius: 3px;
+  background: #000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.volume-slider-horizontal::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: -5px;
+}
+.volume-slider-horizontal::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+.volume-slider-horizontal::-moz-range-track {
+  height: 6px;
+  background: #000;
+  border-radius: 3px;
+}
+.volume-slider-horizontal::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: -5px;
+}
+.volume-slider-horizontal::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Back-button gradient aur text white */
+button.btn-outline-light.gradient-btn {
+  background: linear-gradient(90deg, #ff4da6 0%, #ffa1dc 100%);
+  border: none;
+  color: white !important;
+}
+button.btn-outline-light.gradient-btn:hover {
+  background: linear-gradient(90deg, #e04393 0%, #ff8ad1 100%);
+  border: none;
+  color: white !important;
+}
+
+@media (max-width: 700px) {
+  .song-image {
+    max-width: 100%;
+  }
+
+  .control-btn,
+  .volume-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .volume-popup {
+    left: 50px;
+    padding: 4px;
+  }
+
+  .volume-slider-horizontal {
+    width: 100px;
+    height: 6px;
+  }
+  .volume-slider-horizontal::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+    margin-top: -4px;
+  }
+  .volume-slider-horizontal::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    margin-top: -4px;
+  }
+}

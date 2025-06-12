@@ -1,0 +1,88 @@
+/* AppNavbar.css */
+
+.navbar-custom {
+  background-color: transparent;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.search-form {
+  flex-grow: 1;
+  max-width: 450px;
+}
+
+.navbar-custom .search-input {
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(31, 31, 31, 1);
+  border: 1px solid rgba(31, 31, 31, 1);
+  caret-color: white;
+  padding: 0.5rem 1rem;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-custom .search-input::placeholder {
+  color: #bbbbbb;
+  opacity: 1;
+}
+
+.navbar-custom .search-input:focus {
+  border-color: hotpink;
+  background-color: rgba(31, 31, 31, 1);
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-custom .premium-link {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+/* Login-icon hover effect disable */
+.login-icon-link {
+  padding: 0 !important;
+}
+.login-icon-link:hover {
+  color: white !important;
+  text-decoration: none;
+  background: none;
+}
+
+/* About / Contact hover + active + focus fix */
+.simple-hover-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color: transparent !important;
+}
+
+.simple-hover-link:hover {
+  color: hotpink !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+/* Yeh focus/active background pink hata dega */
+.simple-hover-link:focus,
+.simple-hover-link:active,
+.nav-link:focus,
+.nav-link:active,
+.nav-link.show,
+.nav-link:visited {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: hotpink !important;
+}
+
+@media (max-width: 700px) {
+  .search-form {
+    max-width: 100%;
+  }
+}

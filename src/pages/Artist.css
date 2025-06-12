@@ -1,0 +1,137 @@
+.artist-page {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+}
+
+.sidebar-col {
+  padding-right: 0;
+}
+
+.main-col {
+  padding: 2rem;
+}
+
+.text-pink {
+  color: #ff69b4; /* Hot pink */
+}
+
+/* Artist Banner Section */
+.artist-banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.artist-banner .artist-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 0;
+}
+
+.artist-banner h1,
+.artist-banner p {
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.artist-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.artist-info h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.artist-info p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.artist-navbar {
+  margin-bottom: 1rem;
+}
+
+/* Song List Styling */
+.song-row {
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.song-row:hover,
+.song-row:focus {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 105, 180, 0.05) 0%,
+    rgba(255, 105, 180, 0.1) 100%
+  );
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  transform: scale(1.01);
+  outline: none;
+}
+
+.song-rank {
+  font-weight: 600;
+  color: #ff69b4;
+}
+
+.song-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+.artist-name {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Responsive Styling */
+@media (max-width: 767.98px) {
+  .song-title {
+    font-size: 0.95rem;
+  }
+
+  .artist-name {
+    font-size: 0.8rem;
+    color:white;
+  }
+
+  .artist-info h1 {
+    font-size: 3rem;
+  }
+
+  .artist-banner {
+    min-height: 180px;
+    padding: 1rem;
+  }
+
+  .artist-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .artist-banner p {
+    font-size: 0.9rem;
+  }
+}

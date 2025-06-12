@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Pal Pal",
+    "artist": "Guru-Randhawa",
+    "image": "/imgs/weeklytop/1.jpeg",
+    "songUrl": "/songs/weeklytop/1.mp3"
+  },
+  {
+    "id": 2,
+     "title": "Akon's Beautiful Day",
+    "artist": "Akon",
+    "image": "/imgs/weeklytop/2.jpeg",
+    "songUrl": "/songs/weeklytop/2.mp3"
+  },
+  {
+    "id": 3,
+    "title": "Allah De Bandeya",
+    "artist": "Bpraak",
+    "image": "/imgs/weeklytop/3.jpeg",
+    "songUrl": "/songs/weeklytop/3.mp3"
+  },
+  {
+    "id": 4,
+     "title": "Zohrajabeen",
+    "artist": "BPraak",
+    "image": "/imgs/weeklytop/4.jpeg",
+    "songUrl": "/songs/weeklytop/4.mp3"
+  },
+  {
+    "id": 5,
+     "title": "Raanjhan",
+    "artist": "Sanju-Rathod",
+    "image": "/imgs/weeklytop/5.jpeg",
+    "songUrl": "/songs/weeklytop/5.mp3"
+  },
+  {
+    "id": 6,
+     "title": "Qatal",
+    "artist": "Guru-Randhawa",
+    "image": "/imgs/weeklytop/6.jpeg",
+    "songUrl": "/songs/weeklytop/6.mp3"
+  },
+  {
+    "id": 7,
+     "title": "Mann Bharrya",
+    "artist": "BPraak",
+    "image": "/imgs/weeklytop/7.jpeg",
+    "songUrl": "/songs/weeklytop/7.mp3"
+  },
+  {
+    "id": 8,
+     "title": "Mann Bharrya",
+    "artist": "BPraak",
+    "image": "/imgs/weeklytop/8.jpeg",
+    "songUrl": "/songs/weeklytop/8.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Parindey (From Jatt Nuu Chudail Takri)",
+    "artist": "Bpraak",
+    "image": "/imgs/weeklytop/9.jpeg",
+    "songUrl": "/songs/weeklytop/9.mp3"
+  },
+  {
+    "id": 10,
+     "title": "Shaky",
+    "artist": "Sanju-Rathod",
+    "image": "/imgs/weeklytop/10.jpeg",
+    "songUrl": "/songs/weeklytop/10.mp3"
+  }
+]

@@ -1,0 +1,125 @@
+.new-release-songs {
+  padding: 25px;
+  color: white;
+}
+
+.new-release-songs h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.text-pink {
+  color: deeppink;
+}
+
+.song-card {
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid deeppink !important;
+  background-color: rgba(31, 31, 31, 1) !important;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.song-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px deeppink;
+}
+
+.card-image {
+  height: 90px;
+  width: 85%;
+  object-fit: cover;
+  display: block;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+
+.card-body-dark {
+  background-color: rgba(31, 31, 31, 1);
+  color: white;
+  padding: 0.75rem;
+}
+
+.song-title,
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist-name,
+.card-subtitle {
+  font-size: 12px;
+  color: #dddddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view-all-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.view-all-wrapper:hover {
+  transform: translateY(-4px);
+}
+
+.plus-circle {
+  width: 60px;
+  height: 60px;
+  background-color: deeppink;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.view-all-text {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.view-all-wrapper:hover .view-all-text {
+  color: deeppink;
+}
+
+.view-all-text-only {
+  font-weight: bold;
+  color: deeppink;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.view-all-text-only:hover {
+  color: hotpink;
+}
+
+/* Mobile 2-card grid */
+.no-scroll {
+  overflow-x: hidden;
+}
+
+.song-card-wrapper {
+  width: 48%;
+}

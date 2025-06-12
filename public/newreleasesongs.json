@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Abhi Mujh Mein Kahin",
+    "artist": "Sonu-Nigam",
+    "image": "/imgs/newrelease/1.jpeg",
+    "songUrl": "/songs/newrelease/1.mp3"
+  },
+  {
+    "id": 2,
+    "title": "Behti Hawa Sa Tha Woh",
+    "artist": "Shantanu-Moitra",
+    "image": "/imgs/newrelease/2.jpeg",
+    "songUrl": "/songs/newrelease/2.mp3"
+  },
+  {
+    "id": 3,
+    "title": "California Love",
+    "artist": "Cheema-Y",
+    "image": "/imgs/newrelease/3.jpeg",
+    "songUrl": "/songs/newrelease/3.mp3"
+  },
+  {
+    "id": 4,
+    "title": "Channa Mereya Full Video - ADHM | Ranbir Kapoor, Anushka | Arijit Singh | Pritam | Karan Johar",
+    "artist": "Arijit-Singh",
+    "image": "/imgs/newrelease/4.jpeg",
+    "songUrl": "/songs/newrelease/4.mp3"
+  },
+  {
+    "id": 5,
+    "title": "Luka Chuppi",
+    "artist": "Sonu-Nigam",
+    "image": "/imgs/newrelease/5.jpeg",
+    "songUrl": "/songs/newrelease/5.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Maa - Taare Zameen Par(English lyrics)",
+    "artist": "Sonu-Nigam",
+    "image": "/imgs/newrelease/6.jpeg",
+    "songUrl": "/songs/newrelease/6.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Tere Hawaale",
+    "artist": "Arijit-Singh",
+    "image": "/imgs/newrelease/7.jpeg",
+    "songUrl": "/songs/newrelease/7.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Teri Mitti - Lyrical | Kesari | Akshay Kumar & Parineeti Chopra | Arko | B Praak| Manoj Muntashir",
+    "artist": "BPraak",
+    "image": "/imgs/newrelease/8.jpeg",
+    "songUrl": "/songs/newrelease/8.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Ve Kamleya - Lofi Mix",
+    "artist": "Arijit-Singh",
+    "image": "/imgs/newrelease/9.jpeg",
+    "songUrl": "/songs/newrelease/9.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Ve Maahi",
+    "artist": "Arijit-Singh",
+    "image": "/imgs/newrelease/10.jpeg",
+    "songUrl": "/songs/newrelease/10.mp3"
+  }
+]

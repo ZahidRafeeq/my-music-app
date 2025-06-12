@@ -1,0 +1,78 @@
+.trending-songs {
+  padding: 30px;
+  color: white;
+  background-color: #121212;
+}
+
+.trending-songs h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-row {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border-bottom: 1px solid deeppink;
+  padding-bottom: 10px;
+}
+
+.song-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.song-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+}
+
+.rank-col {
+  min-width: 50px;
+  border-right: 1px solid #333;
+}
+
+.rank {
+  font-weight: bold;
+  font-size: 20px;
+  color: deeppink;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.song-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.song-title {
+  font-weight: bolder;
+  font-size: 15px;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+
+.song-artist {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.view-all .btn-link {
+  cursor: pointer;
+  color: deeppink;
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,183 @@
+/* Container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(13, 13, 13);
+  padding: 40px 20px;
+  min-height: 100vh;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.left-description {
+  flex: 1 1 400px;
+  max-width: 450px;
+  background-color: rgba(31, 31, 31, 1);
+  color: #eee;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Text styles */
+.signup-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.signup-description {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Signup card */
+.signup-card {
+  flex: 1 1 400px;
+  max-width: 450px;
+  background: #330029; /* Dark pinkish background */
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(255, 20, 147, 0.5); /* pink glow */
+  color: white;
+}
+
+/* Auth tab buttons */
+.auth-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.auth-btn {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #f9c1e8; /* light pink */
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  color: #fff;
+}
+
+.auth-btn.active {
+  color: #fff;
+  font-weight: 700;
+  border-bottom-color: #ff66b2; /* bright pink */
+}
+
+/* Form labels */
+.signup-form .form-label {
+  color: #f9c1e8;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Form controls */
+.form-control {
+  background: #4d0033; /* darker pink */
+  color: #ffe6f0; /* very light pink text */
+  border: 1px solid #cc3399;
+  border-radius: 0.4rem;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #f7c6dd;
+}
+
+.form-control:focus {
+  background: #66004d; /* deeper pink on focus */
+  border-color: #ff66b2;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px #ff66b2;
+}
+
+/* Submit button */
+.signup-btn {
+  background: #ff66b2;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #ff4d94;
+}
+
+/* Google button */
+.google-btn {
+  background: transparent;
+  color: #ffb6d9;
+  border: 2px solid #ffb6d9;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #ff66b2;
+  color: white;
+  border-color: #ff66b2;
+}
+
+/* Or divider */
+.or-divider {
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  color: #ffb6d9;
+}
+
+.or-divider span {
+  background: #330029;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ff66b2;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.or-divider::before {
+  left: 0;
+}
+
+.or-divider::after {
+  right: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .signup-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-description,
+  .signup-card {
+    max-width: 100%;
+    flex: none;
+    border-radius: 1rem;
+  }
+}

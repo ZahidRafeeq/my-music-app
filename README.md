@@ -1,3 +1,10 @@
+Name : Zahid Rafeeq
+Roll No : F23BDOCS1M01183
+Section : 2M
+Project : Music Streaming App
+
+
+
 # My Music Streaming App
 
 A full-featured music streaming web application built using React, Bootstrap 5, and JSON. Songs and media are locally stored, and the application provides dynamic music playback, artist-based filtering, and a responsive user interface.

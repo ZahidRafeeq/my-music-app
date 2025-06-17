@@ -32,8 +32,7 @@
 
 /* Gradient text styling for "Now Playing" */
 .gradient-text {
-   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   background: linear-gradient(90deg, #e600ac, #3366ff);
   background-clip: text;
   -webkit-background-clip: text;

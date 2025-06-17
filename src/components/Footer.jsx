@@ -7,7 +7,7 @@ import PhoneIcon from "../assets/svgs/Call.svg";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="melodies-footer py-5">
+    <footer id="footer" className="zahid-footer py-5">
       <div className="container">
         <div className="row gy-4">
           <div className="col-12 col-md-4">

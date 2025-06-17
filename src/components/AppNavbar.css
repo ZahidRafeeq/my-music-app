@@ -1,6 +1,6 @@
 /* AppNavbar.css */
 
-.navbar-custom {
+.navbar {
   background-color: transparent;
   margin-top: 10px;
   justify-content: space-between;
@@ -9,12 +9,12 @@
   padding-right: 1rem;
 }
 
-.search-form {
+.form {
   flex-grow: 1;
   max-width: 450px;
 }
 
-.navbar-custom .search-input {
+.navbar .search-input {
   border-radius: 10px;
   width: 100%;
   background-color: rgba(31, 31, 31, 1);
@@ -26,12 +26,12 @@
   box-shadow: none;
 }
 
-.navbar-custom .search-input::placeholder {
+.navbar .search-input::placeholder {
   color: #bbbbbb;
   opacity: 1;
 }
 
-.navbar-custom .search-input:focus {
+.navbar .search-input:focus {
   border-color: hotpink;
   background-color: rgba(31, 31, 31, 1);
   color: white;
@@ -39,7 +39,7 @@
   box-shadow: none;
 }
 
-.navbar-custom .premium-link {
+.navbar .premium-link {
   color: #ffc107;
   font-weight: bold;
 }

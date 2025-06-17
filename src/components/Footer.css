@@ -1,32 +1,32 @@
-.melodies-footer {
+.zahid-footer {
   background-color: #0f0f0f;
   color: #ffffff;
   font-size: 0.95rem;
 }
 
-.melodies-footer h1,
-.melodies-footer h5 {
+.zahid-footer h1,
+.zahid-footer h5 {
   color: #ffffff;
   font-weight: bold;
 }
 
-.melodies-footer p {
+.zahid-footer p {
   color: #dddddd;
   line-height: 1.6;
 }
 
-.melodies-footer a {
+.zahid-footer a {
   color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.melodies-footer a:hover {
+.zahid-footer a:hover {
   color: hotpink;
   text-decoration: underline;
 }
 
-.melodies-footer hr {
+.zahid-footer hr {
   border-color: #444;
   margin: 0.5rem 0;
 }

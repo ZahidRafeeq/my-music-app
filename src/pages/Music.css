@@ -32,17 +32,17 @@
 
 /* Gradient text styling for "Now Playing" */
 .gradient-text {
-  background: linear-gradient(90deg, #ff4da6 0%, #ffa1dc 100%);
-  -webkit-background-clip: text;
+   font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #e600ac, #3366ff);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-right: auto;
 }
-
-/* Baqi CSS waise hi hai */
-
 .song-image {
   width: auto;
-  height: 20vh;
+  height: 19vh;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(255, 77, 166, 0.6);
   object-fit: cover;
@@ -247,14 +247,13 @@
   transform: scale(1.2);
 }
 
-/* Back-button gradient aur text white */
 button.btn-outline-light.gradient-btn {
-  background: linear-gradient(90deg, #ff4da6 0%, #ffa1dc 100%);
+  background: linear-gradient(90deg, #e600ac, #3366ff 100%);
   border: none;
   color: white !important;
 }
 button.btn-outline-light.gradient-btn:hover {
-  background: linear-gradient(90deg, #e04393 0%, #ff8ad1 100%);
+  background: linear-gradient(90deg, #e600ac, #3366ff);
   border: none;
   color: white !important;
 }

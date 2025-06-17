@@ -190,7 +190,7 @@ const Music = () => {
         <div className="row justify-content-center mb-4">
           <div className="col-10 col-sm-8 col-md-6 col-lg-4 text-center">
             <img src={song.image || "/imgs/default.png"} alt={song.title} className="song-image mb-3 img-fluid" />
-            <h4 className="mt-2">{song.title}</h4> {/* Updated here */}
+            <h4 className="mt-2 gradient-text">{song.title}</h4>
             <p className="text-light">{song.artist}</p>
           </div>
         </div>

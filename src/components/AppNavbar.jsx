@@ -28,7 +28,7 @@ const AppNavbar = ({ user, onLogout, onLogin, onSearch }) => {
   return (
     <Navbar
       expand="lg"
-      className="navbar-custom py-3 d-none d-lg-flex"
+      className="navbar py-3 d-none d-lg-flex"
       sticky="top"
     >
       <Container
@@ -36,7 +36,7 @@ const AppNavbar = ({ user, onLogout, onLogin, onSearch }) => {
         className="d-flex justify-content-between align-items-center"
       >
         <Form
-          className="search-form d-flex flex-grow-1 me-lg-4"
+          className="form d-flex flex-grow-1 me-lg-4"
           onSubmit={(e) => e.preventDefault()}
         >
           <FormControl
